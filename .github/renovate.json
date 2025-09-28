@@ -22,7 +22,7 @@
        "matchManagers": [
         "kustomize"
       ],
-     "matchDatasources": ["docker"],
+     // "matchDatasources": ["docker"],
       "pinDigests": true,
       "matchPackageNames": ["gitaction"],
       // "registryUrls": ["https://138645654058.dkr.ecr.ap-south-1.amazonaws.com"],
