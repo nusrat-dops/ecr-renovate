@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
@@ -8,7 +7,7 @@
   "hostRules": [
     {
       "hostType": "docker",
-      "matchHost": "138645654058.dkr.ecr.ap-south-1.amazonaws.com",
+      "matchHost": "https://138645654058.dkr.ecr.ap-south-1.amazonaws.com",
       "username": "AWS",
       "password": "env.RENOVATE_AWS_ECR_PASSWORD"
     }
@@ -25,11 +24,10 @@
       ],
      "matchDatasources": ["docker"],
       "matchPackageNames": ["gitaction"],
-      "registryUrls": ["138645654058.dkr.ecr.ap-south-1.amazonaws.com"],
+      "registryUrls": ["https://138645654058.dkr.ecr.ap-south-1.amazonaws.com"],
       "groupName": "ecr-docker-images",
       "automerge": false
     }
    
   ]
-  
 }
