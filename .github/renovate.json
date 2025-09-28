@@ -25,7 +25,7 @@
      "matchDatasources": ["docker"],
       "pinDigests": true,
       "matchPackageNames": ["gitaction"],
-      "registryUrls": ["https://138645654058.dkr.ecr.ap-south-1.amazonaws.com"],
+      // "registryUrls": ["https://138645654058.dkr.ecr.ap-south-1.amazonaws.com"],
       "groupName": "ecr-docker-images",
       "automerge": false
     }
